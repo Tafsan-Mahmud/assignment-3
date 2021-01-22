@@ -5,7 +5,7 @@
 
 
 
-//problem____1 --kilometertometer___
+//problem____1 --kilometertometer___!!!!
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
@@ -21,7 +21,7 @@ console.log("Meter:", result1);                  //Solved Problem--1
 
 
 
-//problem_____2--budgetcalculator____
+//problem_____2--budgetcalculator____!!!!
 
 function budgetCalculator(watch, mobile, laptop) {
     var product1 = watch * 50;
@@ -39,7 +39,7 @@ console.log("total budget:", result3)              //Solved Problem--2
 
 
 
-//problem____3--hotelcost____
+//problem____3--hotelcost____!!!!
 
 function hotelCost(totaldays) {
     var totalvara = 0;
@@ -73,7 +73,7 @@ console.log("total amount:", result2);       //Solved Problem--3
 
 
 
-//problem____4--megafriend____
+//problem____4--megafriend____!!!!
 
 function megaFriend(friends) {
     var count = friends[0];
