@@ -1,16 +1,19 @@
 
 
-//** https://github.com/Tafsan-Mahmud/assignment-3 */
+// https://github.com/Tafsan-Mahmud/assignment-3
 
 
 
 
-//problem____1___!!!!!
+//problem____1 --kilometertometer___!!!!!
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
+
     return meter;
+
 }
+
 var result1 = kilometerToMeter(1.29);
 console.log("Meter:", result1);                  //Solved Problem--1
 
@@ -18,7 +21,7 @@ console.log("Meter:", result1);                  //Solved Problem--1
 
 
 
-//problem_____2____!!!!!
+//problem_____2--budgetcalculator____!!!!!
 
 function budgetCalculator(watch, mobile, laptop) {
     var product1 = watch * 50;
@@ -29,19 +32,18 @@ function budgetCalculator(watch, mobile, laptop) {
     return total;
 }
 
-
-var result3 = budgetCalculator(4,3,2,)
+var result3 = budgetCalculator(4, 3, 2,)
 console.log("total budget:", result3)              //Solved Problem--2
 
 
 
 
 
-//problem____3____!!!!!!
+//problem____3--hotelcost____!!!!!!
 
 function hotelCost(totaldays) {
     var totalvara = 0;
-    if (totaldays <= 10){
+    if (totaldays <= 10) {
         totalvara = totaldays * 100;
     } else if (totaldays <= 20) {
 
@@ -59,7 +61,9 @@ function hotelCost(totaldays) {
         totalvara = firstpart + secondpart + thirdpart;
 
     }
+
     return totalvara;
+    
 }
 
 var result2 = hotelCost(23);
@@ -69,13 +73,13 @@ console.log("total amount:", result2);       //Solved Problem--3
 
 
 
-//problem____4____!!!!!!
+//problem____4--megafriend____!!!!!!
 
 function megaFriend(highestString) {
     var count = highestString[0];
     for (var i = 0; i < highestString.length; i++) {
         var element = highestString[i];
-       if (element.length > count.length) {
+        if (element.length > count.length) {
             count = element;
         }
 
@@ -84,7 +88,7 @@ function megaFriend(highestString) {
 
 }
 
-var array = ["abul","kabul","bulbul vuiya","mofizaa","kashem chowdhuri"] ;
+var array = ["abul", "kabul", "bulbul vuiya", "mofiz", "kashem chowdhuri"];
 var result4 = megaFriend(array);
 console.log(result4);                    //Solved Problem--4
 
